@@ -1,0 +1,54 @@
+.container {
+	padding: 2em 3em;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.intro {
+	margin: .5em;
+}
+.intro h1 {
+	font-size: 2em;
+}
+
+.beer-finder {
+	margin: .5em;
+}
+
+.submit-button {
+	background: #EDEDED;
+	border-radius: 2px;
+	border:none;
+	padding: .5em;
+}
+.submit-button:hover {
+	background: #999;
+	color:white;
+}
+
+.hidden {
+	display:none;
+}
+.result-table {
+	border-collapse: collapse;
+}
+
+thead {
+	background: #999;
+	color: white;
+	font-weight: 500;
+}
+tbody tr:nth-child(odd) {
+	background: #EDEDED;
+}
+
+td, th {
+	border: 1px solid #999;
+	padding: 0.5em;
+	text-align: left;
+}
+
+
+
+
