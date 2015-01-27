@@ -27,16 +27,20 @@
 	color:white;
 }
 
-.hidden {
-	display:none;
-}
 .result-table {
+	display: none;
+}
+
+.result-body {
 	border-collapse: collapse;
 }
 
+.hidden {
+	display: none;
+}
+
 thead {
-	background: #999;
-	color: white;
+	background: yellow;
 	font-weight: 500;
 }
 tbody tr:nth-child(odd) {
